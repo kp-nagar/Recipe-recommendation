@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "9b638d06-4ab1-467a-9fef-a688a75ec80c",
+		"name": "Recipe Recommendation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Recipe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/get_recipe?ingredients=tomato,onion,chicken",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"get_recipe"
+					],
+					"query": [
+						{
+							"key": "ingredients",
+							"value": "tomato,onion,chicken"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
