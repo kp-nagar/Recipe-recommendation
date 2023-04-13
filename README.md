@@ -90,4 +90,3 @@ Project Structure
   ```
   Recipe Recommendation.ipynb
   ```
-![Pages](postman.png)
