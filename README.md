@@ -40,7 +40,7 @@ Project Structure
 
 1. Clone the repo
   ```
-  $ git clone 
+  $ git clone git@github.com:kp-nagar/Recipe-recommendation.git
   $ cd Recipe-recommendation
   ```
 
